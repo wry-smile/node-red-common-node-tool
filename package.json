@@ -1,0 +1,27 @@
+{
+  "name": "node-red-common-node-tool",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "build": "tsup",
+    "dev": "node ./dist/main.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.11",
+    "esno": "^4.7.0",
+    "ora": "^8.0.1",
+    "tar": "^7.4.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.23.2",
+    "eslint": "^9.7.0",
+    "tsup": "^8.2.2",
+    "typescript": "^5.5.4"
+  }
+}
