@@ -1,0 +1,1 @@
+# node-red-common-node-tool
