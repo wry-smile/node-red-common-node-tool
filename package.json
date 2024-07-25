@@ -4,17 +4,17 @@
   "version": "1.0.0",
   "description": "",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [],
   "main": "index.js",
   "scripts": {
     "start": "node ./dist/main.js",
-    "build": "tsup",
+    "build": "pnpm build:tool && pnpm start",
+    "build:tool": "tsup",
     "dev": "node ./dist/main.js"
   },
   "dependencies": {
     "@types/node": "^20.14.11",
-    "esno": "^4.7.0",
     "ora": "^8.0.1",
     "tar": "^7.4.1"
   },
